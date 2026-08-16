@@ -263,9 +263,6 @@ export default function Hero() {
         }}
         className="absolute bottom-9 left-1/2 flex -translate-x-1/2 flex-col items-center"
       >
-        <span className="mb-3 text-[9px] uppercase tracking-[0.3em] text-neutral-700">
-          Scroll to explore
-        </span>
 
         <motion.span
           animate={{
@@ -293,7 +290,6 @@ export default function Hero() {
         transition={{ duration: 1, delay: 1.4 }}
         className="absolute bottom-9 left-6 hidden text-[9px] uppercase tracking-[0.2em] text-neutral-800 sm:block"
       >
-        building / learning
       </motion.div>
 
       <motion.div
@@ -302,7 +298,6 @@ export default function Hero() {
         transition={{ duration: 1, delay: 1.4 }}
         className="absolute bottom-9 right-6 hidden text-[9px] uppercase tracking-[0.2em] text-neutral-800 sm:block"
       >
-        scroll ↓
       </motion.div>
     </section>
   );
