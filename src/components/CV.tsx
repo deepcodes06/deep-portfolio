@@ -314,10 +314,6 @@ export default function CV() {
             <p className="mt-3 text-sm text-neutral-400">
               BSc IT · Currently pursuing · Third year
             </p>
-
-            <p className="mt-2 text-xs leading-6 text-neutral-600">
-              College name and expected graduation year can be added here.
-            </p>
           </div>
         </section>
 
