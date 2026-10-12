@@ -11,12 +11,12 @@ const links = [
   {
     label: "GitHub",
     value: "See what I'm building",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/deepcodes06",
   },
   {
-    label: "LinkedIn",
-    value: "Connect with me",
-    href: "https://www.linkedin.com/in/yourusername/",
+    label: "Resume",
+    value: "View my resume",
+    href: "/cv",
   },
 ];
 
@@ -136,8 +136,16 @@ export default function About() {
               <a
                 key={link.label}
                 href={link.href}
-                target={link.label === "Email" ? undefined : "_blank"}
-                rel={link.label === "Email" ? undefined : "noreferrer"}
+                target={
+                  link.label === "Email" || link.label === "CV"
+                    ? undefined
+                    : "_blank"
+                }
+                rel={
+                  link.label === "Email" || link.label === "CV"
+                    ? undefined
+                    : "noreferrer"
+                }
                 className={`group flex items-center justify-between py-5 transition-colors duration-300 sm:flex-col sm:items-start sm:gap-3 sm:px-6 sm:py-4 ${
                   index !== 0
                     ? "border-t border-white/[0.08] sm:border-l sm:border-t-0"
