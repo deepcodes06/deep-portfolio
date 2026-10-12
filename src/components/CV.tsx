@@ -348,7 +348,7 @@ export default function CV() {
           </p>
 
           <a
-            href="mailto:YOUR_EMAIL@example.com"
+            href="mailto:deepsoni0610@gmail.com"
             className="mt-7 inline-flex rounded-full border border-white/15 px-5 py-3 text-xs text-neutral-300 transition hover:border-white/40 hover:text-white"
           >
             Let's connect ↗

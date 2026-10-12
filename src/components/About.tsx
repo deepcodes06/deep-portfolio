@@ -6,7 +6,7 @@ const links = [
   {
     label: "Email",
     value: "Get in touch",
-    href: "mailto:your-email@example.com",
+    href: "mailto:deepsoni0610@gmail.com",
   },
   {
     label: "GitHub",
