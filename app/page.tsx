@@ -1,16 +1,20 @@
+
 import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
+import SectionTransition from "@/components/SectionTransition";
 import Experience from "@/components/Experience";
 import About from "@/components/About";
 import SmoothScroll from "@/components/SmoothScroll";
-import SectionTransition from "@/components/SectionTransition";
 
 export default function Home() {
   return (
     <>
       <SmoothScroll />
 
-      <main>
+      <main className="min-h-screen overflow-x-hidden bg-[#0a0a0a] text-white">
         <Hero />
+
+        <Projects />
 
         <SectionTransition />
 

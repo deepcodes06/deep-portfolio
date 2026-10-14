@@ -16,7 +16,7 @@ const links = [
   {
     label: "Resume",
     value: "View my resume",
-    href: "/cv",
+    href: "/cv.pdf",
   },
 ];
 
@@ -137,12 +137,12 @@ export default function About() {
                 key={link.label}
                 href={link.href}
                 target={
-                  link.label === "Email" || link.label === "CV"
+                  link.label === "Email" || link.label === "Resume"
                     ? undefined
                     : "_blank"
                 }
                 rel={
-                  link.label === "Email" || link.label === "CV"
+                  link.label === "Email" || link.label === "Resume"
                     ? undefined
                     : "noreferrer"
                 }

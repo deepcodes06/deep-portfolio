@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect } from "react";
@@ -8,6 +9,11 @@ export default function SmoothScroll() {
     const lenis = new Lenis({
       duration: 1.2,
       smoothWheel: true,
+
+      // Allow elements with their own scrolling to handle wheel events.
+      prevent: (node) =>
+        node instanceof HTMLElement &&
+        node.closest("[data-lenis-prevent]") !== null,
     });
 
     let animationFrame: number;
