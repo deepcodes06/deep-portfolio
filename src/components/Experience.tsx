@@ -6,33 +6,33 @@ import { AnimatePresence, motion } from "framer-motion";
 const experiences = [
   {
     number: "01",
-    title: "AjabShahar",
-    keywords: "React · API Integration",
-    description:
-      "My first project during the internship. Working with React introduced me to concepts like functions, state and API integration while working on a real website.",
-    details:
-      "The project also helped me improve my approach to styling and UI. Styling was something I was still learning at the time, so working on a real website pushed me to become more comfortable with creating and refining interfaces.",
-    learned: ["React", "State", "API Integration", "UI Styling"],
-  },
-  {
-    number: "02",
-    title: "Cipla",
+    title: "Cipla Admin Dashboard",
     keywords: "PHP · PostgreSQL · Cron",
     description:
-      "I worked mainly on data handling and built an admin page to display application data using PHP and PostgreSQL.",
+      "During my internship at DAM Networks LLP, I built an internal administration page to make application data easier to review and manage.",
     details:
-      "I worked independently on the admin side while another developer worked on the application. I also worked with cron jobs for scheduled email-related tasks, which gave me experience handling data and working with an existing application ecosystem.",
+      "The dashboard focused on displaying sales-related information and employee data in a more organised way. I worked on the admin-side implementation using PHP and PostgreSQL, including data display and management workflows. I also worked with Cron for scheduled email-related tasks. I handled the admin page independently while receiving guidance on requirements and possible approaches from a senior developer. This helped me become more comfortable working with existing systems and understanding how backend data supports an interface.",
     learned: ["PHP", "PostgreSQL", "Data Handling", "Cron Jobs"],
   },
   {
-    number: "03",
-    title: "Flutter",
-    keywords: "Application Frontend",
+    number: "02",
+    title: "Cipla Employee App",
+    keywords: "Flutter · Mobile UI",
     description:
-      "Towards the end of the internship, I contributed to the frontend of the application using Flutter.",
+      "I contributed to the frontend of a mobile application intended for employees to review information and submit sales updates.",
     details:
-      "This gave me an opportunity to work with Flutter in a professional environment and explore mobile application development alongside the web development work I had already been doing.",
-    learned: ["Flutter", "Frontend", "Mobile Development", "UI"],
+      "My work focused on building and refining Flutter UI screens and layouts, including dashboard and performance-related views. I helped fix interface issues and improve how screens fit different device sizes. API integration was handled by another developer, so my contribution was centred on the frontend rather than the app's API layer. This gave me practical experience with Flutter and showed me how mobile interfaces need to present information clearly while remaining usable on different screen sizes.",
+    learned: ["Flutter", "UI Development", "Responsive Layouts", "Bug Fixing"],
+  },
+  {
+    number: "03",
+    title: "Internship Experience",
+    keywords: "Teamwork · Existing Systems · Problem Solving",
+    description:
+      "The internship gave me a chance to move beyond practice projects and contribute to work shaped by real requirements.",
+    details:
+      "Across the web administration work and mobile frontend tasks, I learned to understand an existing codebase before changing it, clarify what a feature needs to do, and test the result rather than stopping once it looks correct. I also learned to recognise the boundaries of my responsibilities, collaborate with other developers, and ask for guidance when I needed it. The experience strengthened my interest in application development and gave me a clearer picture of the care and communication involved in building software for real use.",
+    learned: ["Real Requirements", "Collaboration", "Debugging", "Learning Existing Code"],
   },
 ];
 
@@ -93,16 +93,21 @@ export default function Experience() {
             }}
             className="text-center"
           >
-            <p className="text-[10px] uppercase tracking-[0.3em] text-neutral-600">
-              01 / experience
-            </p>
 
             <h2 className="mt-5 text-[clamp(3rem,7vw,6rem)] font-medium leading-none tracking-[-0.07em]">
               DAM Networks LLP
             </h2>
 
-            <p className="mt-5 text-xs uppercase tracking-[0.2em] text-neutral-600">
+            <p className="mt-5 text-xs uppercase tracking-[0.2em] text-neutral-500">
               Intern Developer · 6 months
+            </p>
+            <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-neutral-500 sm:text-base sm:leading-8">
+              During my internship, I worked across web administration and
+              mobile application interfaces. I built an admin page using PHP
+              and PostgreSQL, worked with scheduled email tasks, and contributed
+              to Flutter frontend screens. The experience helped me understand
+              how to work with existing applications, practical requirements,
+              and other developers while continuing to build my technical skills.
             </p>
           </motion.div>
 
@@ -213,14 +218,14 @@ export default function Experience() {
             <div className="mx-auto mb-7 h-8 w-px bg-white/[0.08]" />
 
             <p className="text-lg leading-8 tracking-[-0.02em] text-neutral-300 sm:text-xl">
-              Six months of learning what it means
-              to build for real requirements.
+              Six months of learning how software
+              is built for real requirements.
             </p>
 
             <p className="mt-3 text-sm leading-7 text-neutral-600">
-              From working with existing code to understanding
-              client needs, giving updates, and taking responsibility
-              for my work.
+              From understanding requirements and navigating existing code
+              to testing changes, communicating with teammates, and taking
+              responsibility for the parts of the work I handled.
             </p>
           </motion.div>
         </div>

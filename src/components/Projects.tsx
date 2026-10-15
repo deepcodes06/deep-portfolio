@@ -67,9 +67,6 @@ export default function Projects() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-center"
           >
-            <p className="text-[10px] uppercase tracking-[0.3em] text-neutral-600">
-              01 / selected work
-            </p>
             <h2 className="mt-5 text-[clamp(3rem,7vw,6rem)] font-medium leading-none tracking-[-0.07em]">
               Projects
             </h2>

@@ -181,11 +181,12 @@ export default function Hero() {
             delay: 0.7,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="mt-5 max-w-md text-xs leading-6 text-neutral-600 sm:text-sm"
+          className="mt-6 max-w-2xl text-sm leading-7 text-neutral-500 sm:text-base sm:leading-8"
         >
-          A developer learning by building real things,
-          <br className="hidden sm:block" />
-          breaking them, fixing them, and trying again.
+          I'm Deep Soni, a developer interested in building web applications,
+          mobile experiences, and backend systems. I enjoy turning ideas into
+          working products, exploring new technologies, and learning through
+          the challenges that come with development.
         </motion.p>
 
         {/* -----------------------------------------

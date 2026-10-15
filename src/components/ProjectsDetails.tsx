@@ -78,23 +78,23 @@ const projects: Project[] = [
     images: [
     {
         src: "/projects/trade-z-1.png",
-        alt: "Trade-Z portfolio",
-        caption: "Portfolio and profit/loss",
+        alt: "Trade-Z Login",
+        caption: "Login/Registration Page",
       },
       {
         src: "/projects/trade-z-2.png",
-        alt: "Trade-Z stock watchlist",
-        caption: "Stock prices and watchlists",
+        alt: "Trade-Z Home",
+        caption: "Home Page",
       },
       {
         src: "/projects/trade-z-3.png",
-        alt: "Trade-Z stock details",
-        caption: "Stock details and charts",
+        alt: "Trade-Z WatchList",
+        caption: "Watchlist Page",
       },
       {
         src: "/projects/trade-z-4.png",
-        alt: "Trade-Z portfolio",
-        caption: "Portfolio and profit/loss",
+        alt: "Trade-Z Orders",
+        caption: "Orders Page",
       },
             {
         src: "/projects/trade-z-5.png",
@@ -103,18 +103,18 @@ const projects: Project[] = [
       },
             {
         src: "/projects/trade-z-6.png",
-        alt: "Trade-Z portfolio",
-        caption: "Portfolio and profit/loss",
+        alt: "Trade-Z Stock Details",
+        caption: "Stock Details Page",
       },
             {
         src: "/projects/trade-z-7.png",
-        alt: "Trade-Z portfolio",
-        caption: "Portfolio and profit/loss",
+        alt: "Trade-Z Stock Details",
+        caption: "Stock Details Page",
       },
             {
         src: "/projects/trade-z-8.png",
-        alt: "Trade-Z portfolio",
-        caption: "Portfolio and profit/loss",
+        alt: "Trade-Z Profile",
+        caption: "Profile Page",
       },
     ],
     links: [
@@ -164,22 +164,22 @@ const projects: Project[] = [
       {
         src: "/projects/titactoe-1.png",
         alt: "Tic Tac Toe game board",
-        caption: "Game interface",
+        caption: "Game Home Page",
       },
       {
         src: "/projects/tictactoe-2.png",
         alt: "Tic Tac Toe computer mode",
-        caption: "Computer opponent mode",
+        caption: "Select Mode",
       },
             {
         src: "/projects/tictactoe-3.png",
         alt: "Tic Tac Toe computer mode",
-        caption: "Computer opponent mode",
+        caption: "Game Interface",
       },
             {
         src: "/projects/tictactoe-4.png",
         alt: "Tic Tac Toe computer mode",
-        caption: "Computer opponent mode",
+        caption: "Win/Loss Pop up",
       },
     ],
     links: [
@@ -262,18 +262,18 @@ const projects: Project[] = [
     images: [
       {
         src: "/projects/cipla-app-1.png",
-        alt: "Cipla employee app illustrative screen",
-        caption: "Employee app — replace with an approved screenshot",
+        alt: "Cipla Home Screen",
+        caption: "Home Screen",
       },
       {
         src: "/projects/cipla-app-2.png",
-        alt: "Cipla employee performance screen",
-        caption: "Performance tracking — replace with an approved screenshot",
+        alt: "Prescription Screen",
+        caption: "Prescription Screen",
       },
             {
         src: "/projects/cipla-app-3.png",
-        alt: "Cipla employee performance screen",
-        caption: "Performance tracking — replace with an approved screenshot",
+        alt: "Adding a new prescription",
+        caption: "Adding a new prescription",
       },
     ],
     links: [],
