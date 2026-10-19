@@ -6,16 +6,19 @@ const links = [
   {
     label: "Email",
     value: "Get in touch",
+    manualText: "deepsoni0610@gmail.com",
     href: "mailto:deepsoni0610@gmail.com",
   },
   {
     label: "GitHub",
     value: "See what I'm building",
+    manualText: "github.com/deepcodes06",
     href: "https://github.com/deepcodes06",
   },
   {
     label: "Resume",
     value: "View my resume",
+    manualText: "Deep Soni Resume",
     href: "https://drive.google.com/file/d/1dCeWHeS2WGw9MJj2kLGA2XnP02z9_bTy/view?usp=drivesdk",
   },
 ];
@@ -295,6 +298,9 @@ export default function About() {
                   </p>
                   <p className="mt-2 text-sm text-neutral-400 transition-colors duration-300 group-hover:text-white">
                     {link.value}
+                  </p>
+                  <p className="mt-3 break-all text-xs leading-5 text-neutral-500">
+                    {link.manualText}
                   </p>
                 </div>
                 <span className="text-sm text-neutral-700 transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white">

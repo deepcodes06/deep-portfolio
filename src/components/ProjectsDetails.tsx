@@ -8,9 +8,9 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export type ProjectId =
   | "trade-z"
-  | "tic-tac-toe"
   | "cipla-admin"
-  | "cipla-app";
+  | "cipla-app"
+  | "tic-tac-toe";
 
 type Project = {
   id: ProjectId;
@@ -129,8 +129,97 @@ const projects: Project[] = [
     ],
   },
   {
-    id: "tic-tac-toe",
+    id: "cipla-admin",
     number: "02",
+    title: "Cipla Admin Dashboard",
+    category: "INTERNSHIP · WEB APPLICATION",
+    subtitle: "An internal dashboard for sales and employee information.",
+    overview:
+      "An admin-only website used to review sales details, reports, and employee data. Since the application contains private company information, this case study uses descriptions and illustrative visuals instead of actual admin screenshots.",
+    role:
+      "Independently implemented the admin page using PHP and PostgreSQL. A senior developer provided the requirements and guidance on the implementation approach.",
+    technologies: ["PHP", "PostgreSQL", "Cron Jobs"],
+    features: [
+      "Sales details and reports",
+      "Employee data management",
+      "Record search and filtering",
+      "Add, edit, and delete operations",
+      "Summary cards and statistics",
+      "Scheduled emails",
+    ],
+    challenges: [
+      {
+        title: "Managing records",
+        description:
+          "Implementing the admin interface for working with sales and employee information, including record management and filtering.",
+      },
+      {
+        title: "Scheduled emails",
+        description:
+          "Working with Cron jobs to support emails that run on a schedule.",
+      },
+    ],
+    images: [
+      {
+        src: "/projects/adminpage.png",
+        alt: "Illustrative admin dashboard mockup with fictional data",
+        caption: "Illustrative mockup — not the actual company dashboard",
+      },
+    ],
+    links: [],
+  },
+  {
+    id: "cipla-app",
+    number: "03",
+    title: "Cipla Employee App",
+    category: "INTERNSHIP · MOBILE APPLICATION",
+    subtitle: "A mobile app for employee sales updates and performance tracking.",
+    overview:
+      "An employee-facing mobile application that supports sales updates, sales history, and performance score tracking.",
+    role:
+      "Contributed to the Flutter frontend by building UI screens and layouts, addressing responsive UI issues, fixing bugs, and working on frontend API-related data handling. Another developer handled the API integration work.",
+    technologies: ["Flutter", "REST APIs"],
+    features: [
+      "Employee login",
+      "Sales updates",
+      "Sales history",
+      "Employee score tracking",
+      "Dashboard and performance summaries",
+    ],
+    challenges: [
+      {
+        title: "API-related data handling",
+        description:
+          "Working on the Flutter frontend where screens depend on data supplied by backend APIs.",
+      },
+      {
+        title: "UI responsiveness",
+        description:
+          "Fixing interface bugs and improving layouts so the app screens display correctly.",
+      },
+    ],
+    images: [
+      {
+        src: "/projects/cipla-app-1.png",
+        alt: "Cipla Home Screen",
+        caption: "Home Screen",
+      },
+      {
+        src: "/projects/cipla-app-2.png",
+        alt: "Prescription Screen",
+        caption: "Prescription Screen",
+      },
+            {
+        src: "/projects/cipla-app-3.png",
+        alt: "Adding a new prescription",
+        caption: "Adding a new prescription",
+      },
+    ],
+    links: [],
+  },
+  {
+    id: "tic-tac-toe",
+    number: "04",
     title: "Tic Tac Toe",
     category: "PERSONAL PROJECT · FRONTEND",
     subtitle: "A classic game with a computer opponent.",
@@ -188,95 +277,6 @@ const projects: Project[] = [
         href: "https://github.com/deepcodes06/tictactoe",
       },
     ],
-  },
-  {
-    id: "cipla-admin",
-    number: "03",
-    title: "Cipla Admin Dashboard",
-    category: "INTERNSHIP · WEB APPLICATION",
-    subtitle: "An internal dashboard for sales and employee information.",
-    overview:
-      "An admin-only website used to review sales details, reports, and employee data. Since the application contains private company information, this case study uses descriptions and illustrative visuals instead of actual admin screenshots.",
-    role:
-      "Independently implemented the admin page using PHP and PostgreSQL. A senior developer provided the requirements and guidance on the implementation approach.",
-    technologies: ["PHP", "PostgreSQL", "Cron Jobs"],
-    features: [
-      "Sales details and reports",
-      "Employee data management",
-      "Record search and filtering",
-      "Add, edit, and delete operations",
-      "Summary cards and statistics",
-      "Scheduled emails",
-    ],
-    challenges: [
-      {
-        title: "Managing records",
-        description:
-          "Implementing the admin interface for working with sales and employee information, including record management and filtering.",
-      },
-      {
-        title: "Scheduled emails",
-        description:
-          "Working with Cron jobs to support emails that run on a schedule.",
-      },
-    ],
-    images: [
-      {
-        src: "/projects/cipla-admin-mockup.png",
-        alt: "Illustrative admin dashboard mockup with fictional data",
-        caption: "Illustrative mockup — not the actual company dashboard",
-      },
-    ],
-    links: [],
-  },
-  {
-    id: "cipla-app",
-    number: "04",
-    title: "Cipla Employee App",
-    category: "INTERNSHIP · MOBILE APPLICATION",
-    subtitle: "A mobile app for employee sales updates and performance tracking.",
-    overview:
-      "An employee-facing mobile application that supports sales updates, sales history, and performance score tracking.",
-    role:
-      "Contributed to the Flutter frontend by building UI screens and layouts, addressing responsive UI issues, fixing bugs, and working on frontend API-related data handling. Another developer handled the API integration work.",
-    technologies: ["Flutter", "REST APIs"],
-    features: [
-      "Employee login",
-      "Sales updates",
-      "Sales history",
-      "Employee score tracking",
-      "Dashboard and performance summaries",
-    ],
-    challenges: [
-      {
-        title: "API-related data handling",
-        description:
-          "Working on the Flutter frontend where screens depend on data supplied by backend APIs.",
-      },
-      {
-        title: "UI responsiveness",
-        description:
-          "Fixing interface bugs and improving layouts so the app screens display correctly.",
-      },
-    ],
-    images: [
-      {
-        src: "/projects/cipla-app-1.png",
-        alt: "Cipla Home Screen",
-        caption: "Home Screen",
-      },
-      {
-        src: "/projects/cipla-app-2.png",
-        alt: "Prescription Screen",
-        caption: "Prescription Screen",
-      },
-            {
-        src: "/projects/cipla-app-3.png",
-        alt: "Adding a new prescription",
-        caption: "Adding a new prescription",
-      },
-    ],
-    links: [],
   },
 ];
 

@@ -22,17 +22,8 @@ const projects: {
       "A stock-market learning app with paper trading, watchlists, portfolio tracking, and live price updates.",
   },
   {
-    id: "tic-tac-toe",
-    number: "02",
-    title: "Tic Tac Toe",
-    type: "Personal project · Frontend",
-    stack: "React · JavaScript · Tailwind CSS",
-    summary:
-      "A responsive game with same-device two-player mode and a rule-based computer opponent.",
-  },
-  {
     id: "cipla-admin",
-    number: "03",
+    number: "02",
     title: "Cipla Admin Dashboard",
     type: "Internship · Web application",
     stack: "PHP · PostgreSQL · Cron jobs",
@@ -41,12 +32,21 @@ const projects: {
   },
   {
     id: "cipla-app",
-    number: "04",
+    number: "03",
     title: "Cipla Employee App",
     type: "Internship · Mobile application",
     stack: "Flutter · API-related data handling",
     summary:
       "An employee-facing app for sales updates, sales history, and performance score tracking.",
+  },
+  {
+    id: "tic-tac-toe",
+    number: "04",
+    title: "Tic Tac Toe",
+    type: "Personal project · Frontend",
+    stack: "React · JavaScript · Tailwind CSS",
+    summary:
+      "A responsive game with same-device two-player mode and a rule-based computer opponent.",
   },
 ];
 
