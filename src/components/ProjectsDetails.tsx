@@ -163,7 +163,7 @@ const projects: Project[] = [
       {
         src: "/projects/adminpage.png",
         alt: "Illustrative admin dashboard mockup with fictional data",
-        caption: "Illustrative mockup — not the actual company dashboard",
+        caption: "Illustrative mockup of the admin dashboard with fictional data",
       },
     ],
     links: [],
